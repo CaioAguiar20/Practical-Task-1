@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+.content {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+.imgredonda {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin: 0 auto;
+}
+
+.conteudo {
+  text-align: center;
+}
+
+.texto {
+  width: 300px;
+}
+
+li a span {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+li a img {
+  vertical-align: middle;
+  transition: background-color 0.3s ease;
+}
+
+li a:hover img {
+  background-color: transparent;
+}
+
+/* Modificar a forma da cor vermelha para redonda */
+li:last-child a img {
+  transition: transform 0.3s ease;
+}
+
+li:last-child a:hover img {
+  background-color: #ff0000; /* Cor vermelha */
+  border-radius: 50%; /* Isso faz com que a cor vermelha seja redonda */
+  transform: scale(1.15); /* Aumenta o tamanho em 5% (ou o valor desejado) */
+}
+
+
+
